@@ -74,7 +74,6 @@ bool Test_TitleBar::nativeEvent(const QByteArray & eventType, void * message, lo
 		return true;
 	}
 	}
-
 	return QWidget::nativeEvent(eventType, message, result);
 }
 

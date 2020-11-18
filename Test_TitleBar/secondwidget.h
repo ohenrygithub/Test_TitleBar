@@ -10,7 +10,8 @@ class SecondWidget : public QWidget
 public:
 	SecondWidget(QWidget *parent = Q_NULLPTR);
 	~SecondWidget();
-
+	bool nativeEvent(const QByteArray& eventType, void* message, long* result);
 private:
 	Ui::SecondWidget ui;
+	int m_nBorderWidth;
 };
