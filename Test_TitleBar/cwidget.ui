@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>CWidget</class>
+ <widget class="QWidget" name="CWidget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>786</width>
+    <height>61</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>0</width>
+    <height>61</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>16777215</width>
+    <height>61</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>CWidget</string>
+  </property>
+  <layout class="QHBoxLayout" name="horizontalLayout">
+   <item>
+    <widget class="QLabel" name="lbLogo">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap resource="test_titlebar.qrc">:/Test_TitleBar/Resources/Blue Ball.png</pixmap>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <spacer name="horizontalSpacer">
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>248</width>
+       <height>20</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+   <item>
+    <widget class="QLabel" name="lbWindowTitle">
+     <property name="font">
+      <font>
+       <family>黑体</family>
+       <pointsize>16</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>TextLabel</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <spacer name="horizontalSpacer_2">
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>247</width>
+       <height>20</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+   <item>
+    <widget class="QPushButton" name="pbMin">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset resource="test_titlebar.qrc">
+       <normaloff>:/Test_TitleBar/Resources/Remove.png</normaloff>:/Test_TitleBar/Resources/Remove.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>32</width>
+       <height>32</height>
+      </size>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QPushButton" name="pbMaxNormal">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset resource="test_titlebar.qrc">
+       <normaloff>:/Test_TitleBar/Resources/Fullscreen.png</normaloff>:/Test_TitleBar/Resources/Fullscreen.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>32</width>
+       <height>32</height>
+      </size>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QPushButton" name="pbQuit">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset resource="test_titlebar.qrc">
+       <normaloff>:/Test_TitleBar/Resources/close_32.png</normaloff>:/Test_TitleBar/Resources/close_32.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>32</width>
+       <height>32</height>
+      </size>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="test_titlebar.qrc"/>
+ </resources>
+ <connections>
+  <connection>
+   <sender>pbMaxNormal</sender>
+   <signal>released()</signal>
+   <receiver>CWidget</receiver>
+   <slot>pbMaxNormal()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>629</x>
+     <y>38</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>484</x>
+     <y>33</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pbMin</sender>
+   <signal>released()</signal>
+   <receiver>CWidget</receiver>
+   <slot>pbMin()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>582</x>
+     <y>21</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>494</x>
+     <y>8</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pbQuit</sender>
+   <signal>released()</signal>
+   <receiver>CWidget</receiver>
+   <slot>pbQuit()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>698</x>
+     <y>36</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>538</x>
+     <y>0</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>pbMaxNormal()</slot>
+  <slot>pbMin()</slot>
+  <slot>pbQuit()</slot>
+ </slots>
+</ui>

@@ -1,4 +1,317 @@
 <RCC>
-    <qresource prefix="Test_TitleBar">
-    </qresource>
+  <qresource prefix="Test_TitleBar">
+    <file>Resources/activity_monitor.png</file>
+    <file>Resources/activity_monitor_add.png</file>
+    <file>Resources/activity_monitor_chart.png</file>
+    <file>Resources/activity_monitor_close.png</file>
+    <file>Resources/activity_monitor_warning.png</file>
+    <file>Resources/Add Appointment.png</file>
+    <file>Resources/Add Green Button.png</file>
+    <file>Resources/Add To Favorite.png</file>
+    <file>Resources/Add.png</file>
+    <file>Resources/add_16.png</file>
+    <file>Resources/add_32.png</file>
+    <file>Resources/address_book_32.png</file>
+    <file>Resources/address_book_add_32.png</file>
+    <file>Resources/address_book_close_32.png</file>
+    <file>Resources/address_book_search_32.png</file>
+    <file>Resources/address_book_warning_32.png</file>
+    <file>Resources/Appointment Cool.png</file>
+    <file>Resources/Appointment Urgent.png</file>
+    <file>Resources/arrow_down_16.png</file>
+    <file>Resources/arrow_down_32.png</file>
+    <file>Resources/arrow_left_16.png</file>
+    <file>Resources/arrow_left_32.png</file>
+    <file>Resources/arrow_right_16.png</file>
+    <file>Resources/arrow_right_32.png</file>
+    <file>Resources/arrow_rotate_anticlockwise.png</file>
+    <file>Resources/arrow_rotate_clockwise.png</file>
+    <file>Resources/arrow_up_16.png</file>
+    <file>Resources/arrow_up_32.png</file>
+    <file>Resources/Audio CD.png</file>
+    <file>Resources/Audio Document.png</file>
+    <file>Resources/Backup Green Button.png</file>
+    <file>Resources/Bandwidth.png</file>
+    <file>Resources/basket_32.png</file>
+    <file>Resources/basket_add_32.png</file>
+    <file>Resources/basket_back_32.png</file>
+    <file>Resources/basket_chart_32.png</file>
+    <file>Resources/basket_close_32.png</file>
+    <file>Resources/basket_go_32.png</file>
+    <file>Resources/basket_search_32.png</file>
+    <file>Resources/Blue Ball.png</file>
+    <file>Resources/blue_arrow_down_32.png</file>
+    <file>Resources/blue_arrow_left_32.png</file>
+    <file>Resources/blue_arrow_right_32.png</file>
+    <file>Resources/blue_arrow_up_32.png</file>
+    <file>Resources/book_32.png</file>
+    <file>Resources/book_add_32.png</file>
+    <file>Resources/book_bookmarks_32.png</file>
+    <file>Resources/book_close_32.png</file>
+    <file>Resources/book_search_32.png</file>
+    <file>Resources/book_warning_32.png</file>
+    <file>Resources/busy.png</file>
+    <file>Resources/camera_32.png</file>
+    <file>Resources/camera_add_32.png</file>
+    <file>Resources/camera_close_32.png</file>
+    <file>Resources/Cancel Red Button.png</file>
+    <file>Resources/CD.png</file>
+    <file>Resources/chart_16.png</file>
+    <file>Resources/chart_32.png</file>
+    <file>Resources/chart_flipped_16.png</file>
+    <file>Resources/chart_flipped_32.png</file>
+    <file>Resources/Clear Green Button.png</file>
+    <file>Resources/clock_32.png</file>
+    <file>Resources/close.png</file>
+    <file>Resources/close_16.png</file>
+    <file>Resources/close_32.png</file>
+    <file>Resources/Coherence.png</file>
+    <file>Resources/comment_32.png</file>
+    <file>Resources/comment_add_32.png</file>
+    <file>Resources/comment_page_32.png</file>
+    <file>Resources/comment_user_32.png</file>
+    <file>Resources/comment_user_add_32.png</file>
+    <file>Resources/comment_user_chart_32.png</file>
+    <file>Resources/comment_user_close_32.png</file>
+    <file>Resources/comment_user_info_32.png</file>
+    <file>Resources/comment_user_page_32.png</file>
+    <file>Resources/comment_user_rss_32.png</file>
+    <file>Resources/comment_user_search_32.png</file>
+    <file>Resources/comment_user_warning_32.png</file>
+    <file>Resources/database_32.png</file>
+    <file>Resources/database_add_32.png</file>
+    <file>Resources/database_chart_32.png</file>
+    <file>Resources/database_close_32.png</file>
+    <file>Resources/database_page_32.png</file>
+    <file>Resources/database_search_32.png</file>
+    <file>Resources/database_warning_32.png</file>
+    <file>Resources/Desktop.png</file>
+    <file>Resources/Discussion.png</file>
+    <file>Resources/Document.png</file>
+    <file>Resources/Donate.png</file>
+    <file>Resources/Eject Blue Button.png</file>
+    <file>Resources/email_32.png</file>
+    <file>Resources/email_add_32.png</file>
+    <file>Resources/email_close_32.png</file>
+    <file>Resources/email_forward_32.png</file>
+    <file>Resources/email_reply_32.png</file>
+    <file>Resources/email_reply_all_32.png</file>
+    <file>Resources/error_button.png</file>
+    <file>Resources/error_button_16.png</file>
+    <file>Resources/exit.png</file>
+    <file>Resources/Export To Audio Document.png</file>
+    <file>Resources/Export To Document.png</file>
+    <file>Resources/Export To Movie Document.png</file>
+    <file>Resources/Export To Picture Document.png</file>
+    <file>Resources/Favorite.png</file>
+    <file>Resources/folder_32.png</file>
+    <file>Resources/folder_add_32.png</file>
+    <file>Resources/folder_chart_32.png</file>
+    <file>Resources/folder_close_32.png</file>
+    <file>Resources/folder_page_32.png</file>
+    <file>Resources/folder_search_32.png</file>
+    <file>Resources/folder_warning_32.png</file>
+    <file>Resources/Forward Mail.png</file>
+    <file>Resources/Fullscreen.png</file>
+    <file>Resources/Gear Alt.png</file>
+    <file>Resources/Gear.png</file>
+    <file>Resources/Get Document.png</file>
+    <file>Resources/Get Info Blue Button.png</file>
+    <file>Resources/Get Info Purple Button.png</file>
+    <file>Resources/Get Mail.png</file>
+    <file>Resources/Green Ball.png</file>
+    <file>Resources/Grey Ball.png</file>
+    <file>Resources/hammer_32.png</file>
+    <file>Resources/heart_16.png</file>
+    <file>Resources/heart_32.png</file>
+    <file>Resources/Help Blue Button.png</file>
+    <file>Resources/Help Purple Button.png</file>
+    <file>Resources/History.png</file>
+    <file>Resources/home_32.png</file>
+    <file>Resources/home_back_32.png</file>
+    <file>Resources/home_go_32.png</file>
+    <file>Resources/iChat Alt.png</file>
+    <file>Resources/iChat.png</file>
+    <file>Resources/idle.png</file>
+    <file>Resources/Import Audio Document.png</file>
+    <file>Resources/Import Document.png</file>
+    <file>Resources/Import Movie Document.png</file>
+    <file>Resources/Import Picture Document.png</file>
+    <file>Resources/info_button_16.png</file>
+    <file>Resources/info_button_32.png</file>
+    <file>Resources/Internet History.png</file>
+    <file>Resources/layer_shape.png</file>
+    <file>Resources/layer_shape_ellipse.png</file>
+    <file>Resources/layer_shape_polyline.png</file>
+    <file>Resources/lightbulb_32.png</file>
+    <file>Resources/lightbulb_off_32.png</file>
+    <file>Resources/lock_32.png</file>
+    <file>Resources/lock_open_32.png</file>
+    <file>Resources/logo.png</file>
+    <file>Resources/Mail.png</file>
+    <file>Resources/Menu Item.png</file>
+    <file>Resources/Menu.png</file>
+    <file>Resources/Minus Green Button.png</file>
+    <file>Resources/Minus Red Button.png</file>
+    <file>Resources/Movie CD.png</file>
+    <file>Resources/Movie Document.png</file>
+    <file>Resources/Mr. Bomb.png</file>
+    <file>Resources/Network.png</file>
+    <file>Resources/New Document.png</file>
+    <file>Resources/New Mail.png</file>
+    <file>Resources/newspaper_32.png</file>
+    <file>Resources/newspaper_add_32.png</file>
+    <file>Resources/newspaper_close_32.png</file>
+    <file>Resources/newspaper_info_32.png</file>
+    <file>Resources/newspaper_rss_32.png</file>
+    <file>Resources/newspaper_search_32.png</file>
+    <file>Resources/Orange Ball.png</file>
+    <file>Resources/page_16.png</file>
+    <file>Resources/page_blank_32.png</file>
+    <file>Resources/page_blank_add_32.png</file>
+    <file>Resources/page_blank_chart_32.png</file>
+    <file>Resources/page_blank_close_32.png</file>
+    <file>Resources/page_blank_warning_32.png</file>
+    <file>Resources/page_table_32.png</file>
+    <file>Resources/page_table_add_32.png</file>
+    <file>Resources/page_table_chart_32.png</file>
+    <file>Resources/page_table_close_32.png</file>
+    <file>Resources/page_table_warning_32.png</file>
+    <file>Resources/page_text_32.png</file>
+    <file>Resources/page_text_add_32.png</file>
+    <file>Resources/page_text_chart_32.png</file>
+    <file>Resources/page_text_close_32.png</file>
+    <file>Resources/page_text_warning_32.png</file>
+    <file>Resources/Pause All.png</file>
+    <file>Resources/Pause Blue Button.png</file>
+    <file>Resources/Pause Green Button.png</file>
+    <file>Resources/Pause.png</file>
+    <file>Resources/pencil_32.png</file>
+    <file>Resources/Picture CD.png</file>
+    <file>Resources/Picture Document.png</file>
+    <file>Resources/Play All.png</file>
+    <file>Resources/Play Blue Button.png</file>
+    <file>Resources/Play Green Button.png</file>
+    <file>Resources/Play.png</file>
+    <file>Resources/Plugin Green Button.png</file>
+    <file>Resources/Purple Ball.png</file>
+    <file>Resources/Record Button.png</file>
+    <file>Resources/Record Red Button.png</file>
+    <file>Resources/Red Ball.png</file>
+    <file>Resources/Remove Appointment.png</file>
+    <file>Resources/Remove Document.png</file>
+    <file>Resources/Remove.png</file>
+    <file>Resources/Rename Document.png</file>
+    <file>Resources/rss_16.png</file>
+    <file>Resources/rss_32.png</file>
+    <file>Resources/Run.png</file>
+    <file>Resources/save_32.png</file>
+    <file>Resources/save_download_32.png</file>
+    <file>Resources/save_upload_32.png</file>
+    <file>Resources/screen_32.png</file>
+    <file>Resources/screen_off_32.png</file>
+    <file>Resources/screwdriver_32.png</file>
+    <file>Resources/search_32.png</file>
+    <file>Resources/search_button_16.png</file>
+    <file>Resources/search_button_32.png</file>
+    <file>Resources/search_button_green_16.png</file>
+    <file>Resources/search_button_green_32.png</file>
+    <file>Resources/search_chart_32.png</file>
+    <file>Resources/search_warning_32.png</file>
+    <file>Resources/Send Document.png</file>
+    <file>Resources/Send Mail.png</file>
+    <file>Resources/Smiley Blue.png</file>
+    <file>Resources/Smiley Sad Blue.png</file>
+    <file>Resources/Smiley Sad.png</file>
+    <file>Resources/Smiley Star Pink.png</file>
+    <file>Resources/Smiley Star Sad.png</file>
+    <file>Resources/Smiley Star.png</file>
+    <file>Resources/Smiley.png</file>
+    <file>Resources/Spotlight Blue Button.png</file>
+    <file>Resources/Star.png</file>
+    <file>Resources/star_16.png</file>
+    <file>Resources/star_32.png</file>
+    <file>Resources/star_off_32.png</file>
+    <file>Resources/star_off16.png</file>
+    <file>Resources/Stop All.png</file>
+    <file>Resources/Stop Green Button.png</file>
+    <file>Resources/Stop Red Button.png</file>
+    <file>Resources/Stop.png</file>
+    <file>Resources/Terminal.png</file>
+    <file>Resources/tools_32.png</file>
+    <file>Resources/Transfer Document.png</file>
+    <file>Resources/Transfer.png</file>
+    <file>Resources/Trash Empty.png</file>
+    <file>Resources/Trash Full.png</file>
+    <file>Resources/twitter_16.png</file>
+    <file>Resources/twitter_32.png</file>
+    <file>Resources/Universal Binary.png</file>
+    <file>Resources/Unread Mail Alt.png</file>
+    <file>Resources/Unread Mail.png</file>
+    <file>Resources/User.png</file>
+    <file>Resources/user_32.png</file>
+    <file>Resources/user_add_32.png</file>
+    <file>Resources/user_blue_32.png</file>
+    <file>Resources/user_business_32.png</file>
+    <file>Resources/user_business_add_32.png</file>
+    <file>Resources/user_business_chart_32.png</file>
+    <file>Resources/user_business_close_32.png</file>
+    <file>Resources/user_business_info_32.png</file>
+    <file>Resources/user_business_rss_32.png</file>
+    <file>Resources/user_business_search_32.png</file>
+    <file>Resources/user_business_twitter_32.png</file>
+    <file>Resources/user_business_warning_32.png</file>
+    <file>Resources/user_close_32.png</file>
+    <file>Resources/user_info_32.png</file>
+    <file>Resources/user_rss_32.png</file>
+    <file>Resources/user_search_32.png</file>
+    <file>Resources/user_twitter_32.png</file>
+    <file>Resources/user_warning_32.png</file>
+    <file>Resources/Users.png</file>
+    <file>Resources/users_32.png</file>
+    <file>Resources/users_business_32.png</file>
+    <file>Resources/warning_16.png</file>
+    <file>Resources/warning_32.png</file>
+    <file>Resources/Web Browser.png</file>
+    <file>Resources/web_layout_32.png</file>
+    <file>Resources/web_layout_chart_32.png</file>
+    <file>Resources/web_layout_error_32.png</file>
+    <file>Resources/web_layout_error_32_add.png</file>
+    <file>Resources/web_layout_error_32_close.png</file>
+    <file>Resources/web_layout_info_32.png</file>
+    <file>Resources/web_layout_rss_32.png</file>
+    <file>Resources/web_layout_search_32.png</file>
+    <file>Resources/web_layout_twitter_32.png</file>
+    <file>Resources/window_app_32.png</file>
+    <file>Resources/window_app_blank_32.png</file>
+    <file>Resources/window_app_list_32.png</file>
+    <file>Resources/window_app_list_add_32.png</file>
+    <file>Resources/window_app_list_chart_32.png</file>
+    <file>Resources/window_app_list_close_32.png</file>
+    <file>Resources/window_app_list_error_32.png</file>
+    <file>Resources/window_app_list_info_32.png</file>
+    <file>Resources/window_app_list_search_32.png</file>
+    <file>Resources/Write Document.png</file>
+    <file>Resources/Yellow Ball.png</file>
+    <file>qss/psblack/add_bottom.png</file>
+    <file>qss/psblack/add_left.png</file>
+    <file>qss/psblack/add_right.png</file>
+    <file>qss/psblack/add_top.png</file>
+    <file>qss/psblack/branch_close.png</file>
+    <file>qss/psblack/branch_open.png</file>
+    <file>qss/psblack/calendar_nextmonth.png</file>
+    <file>qss/psblack/calendar_prevmonth.png</file>
+    <file>qss/psblack/checkbox_checked.png</file>
+    <file>qss/psblack/checkbox_checked_disable.png</file>
+    <file>qss/psblack/checkbox_parcial.png</file>
+    <file>qss/psblack/checkbox_parcial_disable.png</file>
+    <file>qss/psblack/checkbox_unchecked.png</file>
+    <file>qss/psblack/checkbox_unchecked_disable.png</file>
+    <file>qss/psblack/radiobutton_checked.png</file>
+    <file>qss/psblack/radiobutton_checked_disable.png</file>
+    <file>qss/psblack/radiobutton_unchecked.png</file>
+    <file>qss/psblack/radiobutton_unchecked_disable.png</file>
+    <file>qss/psblack.css</file>
+    <file>qss/pswhite.css</file>
+  </qresource>
 </RCC>
