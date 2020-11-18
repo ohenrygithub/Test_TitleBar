@@ -1,4 +1,6 @@
 #include "test_titlebar.h"
+//#include "secondwidget.h"
+#include "qicon.h"
 
 #ifdef Q_OS_WIN
 #include <qt_windows.h>
@@ -7,10 +9,11 @@
 
 
 Test_TitleBar::Test_TitleBar(QWidget *parent)
-    : QWidget(parent),
-	m_nBorderWidth(5)
+	: QWidget(parent),
+	m_nBorderWidth(5),
+	second(nullptr)
 {
-    ui.setupUi(this);
+	ui.setupUi(this);
 	this->setWindowFlags(Qt::CustomizeWindowHint | Qt::FramelessWindowHint);
 	installEventFilter(ui.widget);
 	setWindowTitle("Test_TitleBar_Window");
@@ -73,4 +76,21 @@ bool Test_TitleBar::nativeEvent(const QByteArray & eventType, void * message, lo
 	}
 
 	return QWidget::nativeEvent(eventType, message, result);
+}
+
+
+void Test_TitleBar::pbSecond()
+{
+	if (nullptr == second)
+	{
+		second = new SecondWidget();
+	}
+	if (second->isHidden())
+	{
+		second->show();
+	}
+	else
+	{
+		second->hide();
+	}
 }

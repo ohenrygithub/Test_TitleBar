@@ -41,6 +41,9 @@
     <ClCompile Include="cwidget.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="secondwidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <QtUic Include="test_titlebar.ui">
@@ -49,9 +52,15 @@
     <QtUic Include="cwidget.ui">
       <Filter>Form Files</Filter>
     </QtUic>
+    <QtUic Include="secondwidget.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
   </ItemGroup>
   <ItemGroup>
     <QtMoc Include="cwidget.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="secondwidget.h">
       <Filter>Header Files</Filter>
     </QtMoc>
   </ItemGroup>

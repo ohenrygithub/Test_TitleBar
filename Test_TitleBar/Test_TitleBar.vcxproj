@@ -88,14 +88,19 @@
   <ItemGroup>
     <QtRcc Include="test_titlebar.qrc" />
     <QtUic Include="cwidget.ui" />
+    <QtUic Include="secondwidget.ui" />
     <QtUic Include="test_titlebar.ui" />
     <QtMoc Include="test_titlebar.h" />
     <ClCompile Include="cwidget.cpp" />
+    <ClCompile Include="secondwidget.cpp" />
     <ClCompile Include="test_titlebar.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
     <QtMoc Include="cwidget.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="secondwidget.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Condition="Exists('$(QtMsBuild)\qt.targets')">
