@@ -1,0 +1,25 @@
+<UI version="4.0" >
+ <class>Test_TitleBarClass</class>
+ <widget class="QWidget" name="Test_TitleBarClass" >
+  <property name="objectName" >
+   <string notr="true">Test_TitleBarClass</string>
+  </property>
+  <property name="geometry" >
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>600</width>
+    <height>400</height>
+   </rect>
+  </property>
+  <property name="windowTitle" >
+   <string>Test_TitleBar</string>
+  </property>$centralwidget$
+ </widget>
+ <layoutDefault spacing="6" margin="11" />
+ <pixmapfunction></pixmapfunction>
+ <resources>
+   <include location="test_titlebar.qrc"/>
+ </resources>
+ <connections/>
+</UI>
